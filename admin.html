@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Gerencia de Cachibaches</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧾</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="cabecera contenedor">
+    <h1>Gerencia <span>General</span></h1>
+    <p class="lema">Oficina del CEO, CFO y repartidor (la misma persona). <a href="index.html">Ver vitrina</a></p>
+  </header>
+
+  <div class="contenedor">
+    <nav class="pestanas" role="tablist">
+      <button role="tab" data-tab="resumen">📊 Resumen</button>
+      <button role="tab" data-tab="pedidos">🧾 Pedidos</button>
+      <button role="tab" data-tab="compras">🛒 Compras</button>
+      <button role="tab" data-tab="productos">🍪 Productos</button>
+      <button role="tab" data-tab="ajustes">⚙️ Ajustes</button>
+    </nav>
+    <main id="panel" class="panel"></main>
+  </div>
+
+  <div id="toast" role="status"></div>
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "actualizado": "2026-10-27T00:00:00.000Z",
+  "productos": [
+    { "id": "casino", "nombre": "Galletas Casino", "precio": 1, "stock": 0, "emoji": "🍪", "imagen": null, "activo": true },
+    { "id": "wafer-nik-fresa", "nombre": "Wafer Nik de fresa", "precio": 1, "stock": 0, "emoji": "🍓", "imagen": null, "activo": true },
+    { "id": "oreo", "nombre": "Oreo", "precio": 1, "stock": 0, "emoji": "🖤", "imagen": null, "activo": true },
+    { "id": "cereal-bar", "nombre": "Cereal Bar", "precio": 1, "stock": 0, "emoji": "🌾", "imagen": null, "activo": true },
+    { "id": "morochas", "nombre": "Morochas", "precio": 1, "stock": 0, "emoji": "🍫", "imagen": null, "activo": true }
+  ]
+}
